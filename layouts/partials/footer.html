@@ -1,4 +1,5 @@
 <footer id="footer">
+  {{ partial "footer_mathjax.html" }}
     <div class="container">
 
         {{ if isset .Site.Params "about_us" }}
@@ -93,6 +94,7 @@ _________________________________________________________ -->
   <!-- https://notast.netlify.com/post/adding-syntax-highlight/ -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+
 
 <script>
 hljs.configure({languages: []});
